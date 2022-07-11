@@ -1,21 +1,19 @@
 import React from 'react';
 import styled from 'styled-components';
 // importing swap
-import Swap from './Swapper/Swap.jsx';
+import SwapList from './Swapper/SwapList.jsx';
 const UI = () => {
 
-    const clickMe = () => {
-        alert('you got me partner');
-    }
+
 
     return (
         <UIStyled className='UI'>
             <h1>Final Project</h1>
-            <div className="student-name" onClick={ clickMe }>
+            <div className="student-name">
                 Justin O'Dea
             </div>
 
-            <Swap />
+            <SwapList />
         </UIStyled>
 
     );
