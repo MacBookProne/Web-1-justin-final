@@ -5,32 +5,35 @@ import UI from 'UI/UI.jsx';
 
 
 // this is my componet function
-const Swap = () => {
+const Swap = ({ swapData }) => {
 
-    const [imgSrc, imgSrcUpdate] = useState('/assets/img/swapper/sunAndMoon/moon.png');
+    const [imgSrc, imgSrcUpdate] = useState(swapData.image1.path);
+    const [textState, textStateUpdate] = useState(swapData.image1.title);
 
     const changeToImage1 = () => {
         console.log('Change to Image 1');
-        imgSrcUpdate('/assets/img/swapper/sunAndMoon/moon.png');
+        imgSrcUpdate(swapData.image2.path);
+        textStateUpdate(swapData.image2.title);
     }
 
     const changeToImage2 = () => {
         console.log('Change to Image 2');
-        imgSrcUpdate('/assets/img/swapper/sunAndMoon/sun.png');
+        imgSrcUpdate(swapData.image1.path);
+        textStateUpdate(swapData.image1.title);
 
     }
 
 
     return (
         <SwapStyled>
-            <h3>Sun and Moon</h3>
+            <h3>{ swapData.title }</h3>
             <div>
                 <img src= { imgSrc }
                 alt='The Moon'
                 onMouseOver={ changeToImage1 }
                 onMouseOut={ changeToImage2 }
                 />
-                <h4>The Moon</h4>
+                <h4>{ textState }</h4>
             </div>
         </SwapStyled>
     )
