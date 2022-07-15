@@ -82,6 +82,11 @@ const Essays = () => {
             <p>Front end developers - Client side: works on the HTML/CSS/JS - what shpws up in the browser</p>
             <p>Back end dev - Works on the webserver side.</p>
             </Essay>
+            <Essay q='Question 5: Distinguish the difference between Site Relative, Document Relative, and Absolute Paths?'>
+            <p>The address of the link is relative to the overall site</p>
+            <p>The address of the link is relative to the address of the document the link appears in</p>
+            <p>is the hierarchical path that locates a file or folder in a file system starting from the root.</p>
+            </Essay>
         </EssaysStyled>
     );
 }

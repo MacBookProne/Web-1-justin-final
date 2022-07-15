@@ -1,18 +1,18 @@
 import React from 'react';
 import styled from 'styled-components';
-import Essays from './Essays/Essays.jsx';
-const HomeWork = () => {
-    return (
-        <HomeWorkStyled className='HomeWork'>
-            <h2>HomeWork</h2>
 
+import Essays from './Essays/Essays.jsx';
+
+const Homework = () => {
+    return (
+        <HomeoworkStyled className='Homework'>
+            <h2>Homework</h2>
             <Essays />
-        </HomeWorkStyled>
+        </HomeoworkStyled>
     );
 }
 
-export default HomeWork;
+export default Homework;
 
-const HomeWorkStyled = styled.div`
-
+const HomeoworkStyled = styled.div`
 `;

@@ -1,16 +1,19 @@
 import React from 'react';
 import styled from 'styled-components';
-
-import SwapList from './Swapper/SwapList.jsx';
-import HomeWork from './HomeWork/HomeWork.jsx';
+import { Outlet, NavLink } from 'react-router-dom';
 
 const ClassWork = () => {
     return (
         <ClassWorkStyled className='ClassWork'>
 
            <h1>ClassWork</h1>
-           <SwapList />
-           <HomeWork />
+            <nav className='sublinks'>
+                <NavLink to='/class'>Essays</NavLink>
+                <NavLink to='/class/swapper'>Swapper</NavLink>
+
+
+            </nav>
+            <Outlet />
 
         </ClassWorkStyled>
     );
