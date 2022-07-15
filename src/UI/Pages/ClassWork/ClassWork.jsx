@@ -10,8 +10,6 @@ const ClassWork = () => {
             <nav className='sublinks'>
                 <NavLink to='/class'>Essays</NavLink>
                 <NavLink to='/class/swapper'>Swapper</NavLink>
-
-
             </nav>
             <Outlet />
 

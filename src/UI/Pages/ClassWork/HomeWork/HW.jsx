@@ -5,14 +5,14 @@ import Essays from './Essays/Essays.jsx';
 
 const Homework = () => {
     return (
-        <HomeoworkStyled className='Homework'>
+        <HomeworkStyled className='Homework'>
             <h2>Homework</h2>
             <Essays />
-        </HomeoworkStyled>
+        </HomeworkStyled>
     );
 }
 
 export default Homework;
 
-const HomeoworkStyled = styled.div`
+const HomeworkStyled = styled.div`
 `;
