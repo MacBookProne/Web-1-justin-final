@@ -8,7 +8,7 @@ import Contact from './Pages/Contact.jsx';
 import Login from './Pages/Login.jsx';
 
 import ClassWork from './Pages/ClassWork/ClassWork.jsx';
-import Homework from './Pages/ClassWork/Homework/HW.jsx';
+import Homework from './Pages/ClassWork/HW/HW.jsx';
 import SwapList from './Pages/ClassWork/Swapper/SwapList.jsx';
 
 const Routing = () => {
