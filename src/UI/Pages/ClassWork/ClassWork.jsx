@@ -20,5 +20,7 @@ const ClassWork = () => {
 export default ClassWork;
 
 const ClassWorkStyled = styled.div`
+    nav.sublinks a {
+        background-color: maroon;
 
 `;
