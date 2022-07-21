@@ -5,11 +5,12 @@ import { NavLink } from 'react-router-dom';
 const MainMenu = () => {
     return (
         <MainMenuStyled className='MainMenu'>
+            <h2>Main Menu</h2>
             <NavLink to={ '/' }>Home</NavLink>
             <NavLink to={ '/staff' }>Staff</NavLink>
             <NavLink to={ '/contact' }>Contact</NavLink>
             <NavLink to={ '/login' }>Login</NavLink>
-            <NavLink to='/class'>Class</NavLink>
+
 
         </MainMenuStyled>
     );
@@ -19,9 +20,6 @@ export default MainMenu;
 
 const MainMenuStyled = styled.div`
 
-a {
-    color: White;
-    margin: 0px 20px;
-}
+
 
 `;
