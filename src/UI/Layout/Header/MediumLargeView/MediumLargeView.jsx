@@ -53,7 +53,7 @@ const MediumLargeViewStyled = styled.div`
                 opacity: .8;
                 color: #84d4d4;
                 font-weight: bold;
-                text-decorations: none;
+                text-decoration: none;
                 text-transform: uppercase;
 
                 &:hover, &:active, &:focus {
@@ -76,7 +76,7 @@ const MediumLargeViewStyled = styled.div`
 
                     border-bottom: solid 3px #84d4d4;
 
-                    &.active, {
+                    &.active {
                         color: white;
                         border-bottom-color: white;
                     }
