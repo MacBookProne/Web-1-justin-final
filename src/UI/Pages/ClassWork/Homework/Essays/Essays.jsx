@@ -87,13 +87,16 @@ const Essays = () => {
             <p>The address of the link is relative to the address of the document the link appears in</p>
             <p>is the hierarchical path that locates a file or folder in a file system starting from the root.</p>
             </Essay>
-            <Essay q='Question 6:'>
+            <Essay q='Question 6: What is the difference between JPG, GIF, and SVG Images'>
             <p>JPG: Joint Photograpgic Experts Group: Photography Images with continous tone</p>
             <p>GIF: A bitmap image structure that are suitable for
                     sharp-edged line art with a limited number of colors, such as logos</p>
             <p>PNG: Portable Network Graphics developed as an improved, non-patented replacement </p>
             <p>SVG: Scalable Vector Graphics is used to define vector-based graphics for the Web
                 SVG defines the graphics in XML format every attribute in SVG files can be animated </p>
+            </Essay>
+            <Essay q='What is considered the right size for an image or video asset?'>
+                <p></p>
             </Essay>
         </EssaysStyled>
     );
