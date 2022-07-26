@@ -95,7 +95,27 @@ const Essays = () => {
             <p>SVG: Scalable Vector Graphics is used to define vector-based graphics for the Web
                 SVG defines the graphics in XML format every attribute in SVG files can be animated </p>
             </Essay>
-            <Essay q='What is considered the right size for an image or video asset?'>
+            <Essay q='Question 7: Define the following roles: Project Manager, Business Analyst,
+            Scrum Master, UX designer, Web Developer/Engineer, Quality Assurance Tester, and DevOps. '>
+                <p><b>Project Manager:</b>Project managers are responsible for planning, organizing, and directing the completion of specific projects
+                 for an organization while ensuring these projects are on time, on budget, and within scope.</p>
+                <p><b>Business Analyst:</b>A person who processes, interprets and documents business processes, products, services and software through analysis of data. </p>
+                <p><b>Scrum Master:</b> Master of ceremonies, Manages timelines, and assits team members in moving the ball forward</p>
+                <p><b>UX Designer</b> Useable, enjoyable, and accessible. they design the user expereience.(data analysis, user profiles, prototypes) </p>
+                <p><b>Web Developer/ Engineer:</b>Web engineer is responsible for building websites and applications. </p>
+                <p><b>Quality Assurance Tester:</b>Develops test plans to test new and existing software, debug code, and improve the usability of software programs.</p>
+                <p><b>DevOps:</b> The union of people, process, and technology to continually provide value to customers.</p>
+            </Essay>
+            <Essay q='Question 8: What is considered the right size for an image or video asset? '>
+                <p></p>
+            </Essay>
+            <Essay q='Question 9: What does it mean for a company to be Agile? What are the pros and cons of being agile?'>
+                <p></p>
+            </Essay>
+            <Essay q='Question 10: What are testing environments? What is the difference between Local, Dev, QA and Production? '>
+                <p></p>
+            </Essay>
+            <Essay q='Question 11: Function vs Form: When are web images considered part of the content (HTML) as opposed to part of the appearance (CSS)? '>
                 <p></p>
             </Essay>
         </EssaysStyled>
