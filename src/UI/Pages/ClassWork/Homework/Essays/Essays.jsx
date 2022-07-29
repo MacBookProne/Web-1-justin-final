@@ -107,7 +107,7 @@ const Essays = () => {
                 <p><b>DevOps:</b> The union of people, process, and technology to continually provide value to customers.</p>
             </Essay>
             <Essay q='Question 8: What is considered the right size for an image or video asset? '>
-                <p></p>
+                <p>There is no right size as all websites are differnt.</p>
             </Essay>
             <Essay q='Question 9: What does it mean for a company to be Agile? What are the pros and cons of being agile?'>
                 <p></p>
