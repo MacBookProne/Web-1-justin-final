@@ -8,9 +8,9 @@ const objectsScript = () => {
     console.group('Objects');
 
         const myObj = {
-            first: 'Mitch',
-            last: 'Gohman',
-            email: 'meatch@me.com',
+            first: 'Justin',
+            last: 'ODea',
+            email: 'odeajustin@gmail.com',
         }
 
         console.log('myObj:', myObj);
@@ -19,8 +19,8 @@ const objectsScript = () => {
         console.log('myObj.email:', myObj.email);
 
         // Add/Update
-        myObj.age = 47;
-        myObj.email = 'meatched@gmail.com';
+        myObj.age = 28;
+        myObj.email = 'odeajustin@gmail.com';
         console.log('myObj:', myObj);
 
 
