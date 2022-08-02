@@ -107,10 +107,14 @@ const Essays = () => {
                 <p><b>DevOps:</b> The union of people, process, and technology to continually provide value to customers.</p>
             </Essay>
             <Essay q='Question 8: What is considered the right size for an image or video asset? '>
-                <p>There is no right size as all websites are differnt.</p>
+                <p>There is no right size as all websites are diffrent.</p>
             </Essay>
             <Essay q='Question 9: What does it mean for a company to be Agile? What are the pros and cons of being agile?'>
-                <p></p>
+                <p>It means the company has a project management strategy that divides the project into multiple phases,
+                    encouraging continuous improvement for each phase. In the beginning of the project,
+                    the team cycles through planning, evaluation and execution stages to collaborate toward multiple project goals.</p>
+                <p><strong>Cons:</strong> Transfer difficulties, variable goals, lack of documentation, less documented improvement, goal focus shifting less predictable</p>
+                <p><strong>Pros:</strong> Timely Delivery, adaptability, Ease of collaboration, increased performance improvement, transparency, continous improvement, high profits, less prep</p>
             </Essay>
             <Essay q='Question 10: What are testing environments? What is the difference between Local, Dev, QA and Production? '>
                 <p></p>

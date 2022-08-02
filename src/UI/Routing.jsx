@@ -10,6 +10,7 @@ import Login from './Pages/Login.jsx';
 import ClassWork from './Pages/ClassWork/ClassWork.jsx';
 import Homework from './Pages/ClassWork/Homework/Homework.jsx';
 import SwapList from './Pages/ClassWork/Swapper/SwapList.jsx';
+import JavaScript from './Pages/ClassWork/JavaScript/JavaScript.jsx';
 
 const Routing = () => {
     return (
@@ -21,8 +22,9 @@ const Routing = () => {
                 <Route element={ <Login /> }        path='login'  />
 
                 <Route element={ <ClassWork /> }    path='class'>
-                    <Route element={ <Homework /> }   path=''  />
-                    <Route element={ <SwapList /> }   path='swapper'  />
+                    <Route element={ <Homework /> }         path=''  />
+                    <Route element={ <SwapList /> }         path='swapper'  />
+                    <Route element={ <JavaScript /> }       path='javascript'  />
                 </Route>
             </Routes>
         </RoutingStyled>

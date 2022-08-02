@@ -6,12 +6,10 @@ const MainMenu = () => {
     return (
         <MainMenuStyled className='MainMenu'>
             <h2>Main Menu</h2>
-            <NavLink to={ '/' }>Home</NavLink>
+            <NavLink to={ '/' } end>Home</NavLink>
             <NavLink to={ '/staff' }>Staff</NavLink>
             <NavLink to={ '/contact' }>Contact</NavLink>
             <NavLink to={ '/login' }>Login</NavLink>
-
-
         </MainMenuStyled>
     );
 }
@@ -19,7 +17,4 @@ const MainMenu = () => {
 export default MainMenu;
 
 const MainMenuStyled = styled.div`
-
-
-
 `;

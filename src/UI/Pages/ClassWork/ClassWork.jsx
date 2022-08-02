@@ -4,13 +4,15 @@ import { Outlet, NavLink } from 'react-router-dom';
 
 const ClassWork = () => {
     return (
-        <ClassWorkStyled className='ClassWork'>
+        <ClassWorkStyled className='ClassWork inset'>
+            <h1>Class Work</h1>
 
-           <h1>ClassWork</h1>
             <nav className='sublinks'>
-                <NavLink to='/class'>Essays</NavLink>
+                <NavLink to='/class' end>Essays</NavLink>
                 <NavLink to='/class/swapper'>Swapper</NavLink>
+                <NavLink to='/class/javascript'>JavaScript</NavLink>
             </nav>
+
             <Outlet />
 
         </ClassWorkStyled>
@@ -20,7 +22,4 @@ const ClassWork = () => {
 export default ClassWork;
 
 const ClassWorkStyled = styled.div`
-    nav.sublinks a {
-        background-color: maroon;
-
 `;
