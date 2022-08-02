@@ -117,7 +117,11 @@ const Essays = () => {
                 <p><strong>Pros:</strong> Timely Delivery, adaptability, Ease of collaboration, increased performance improvement, transparency, continous improvement, high profits, less prep</p>
             </Essay>
             <Essay q='Question 10: What are testing environments? What is the difference between Local, Dev, QA and Production? '>
-                <p></p>
+                <p><b>What are Testing environments?:</b> A test environment is a combination of hardware, software, data and configurations in order to run tests.</p>
+                <p><b>Dev:</b> Developers perform a series of tests during the software development cycle. By establishing detailed, well-managed processes, Dev testing ensures that any code released into production undergoes
+                thorough testing and review and meets quality standards. Testing while developing software minimizes release issues, customer defects and system downtime.</p>
+                <p><b>Production:</b> This is where the software is produced and is running on a production server. It has officially gone live to real users.</p>
+                <p><b>QA:</b> Testers work as a team to identify, isolate, target and report bugs. </p>
             </Essay>
             <Essay q='Question 11: Function vs Form: When are web images considered part of the content (HTML) as opposed to part of the appearance (CSS)? '>
                 <p></p>
