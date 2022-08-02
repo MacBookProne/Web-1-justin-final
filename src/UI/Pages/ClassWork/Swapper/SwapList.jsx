@@ -7,7 +7,7 @@ const SwapList = () => {
     return(
 
         <SwapListStyled className='SwapList'>
-            SwapList
+            <h2>SwapList</h2>
 
             {
                 swapperData.map((swapData, idx) => {

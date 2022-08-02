@@ -5,7 +5,7 @@ import Essay from './Essay.jsx';
 const Essays = () => {
     return (
         <EssaysStyled className='Essays'>
-            <h3>Essays</h3>
+            <h2>Essays</h2>
             <Essay q='Question 1: Explain the difference between HTML, CSS and JavaScript.'>
                 <p>The difference between HTML, CSS, and JavaScript is drastically different.
                 Hypertext Markup Language or HTML was first
