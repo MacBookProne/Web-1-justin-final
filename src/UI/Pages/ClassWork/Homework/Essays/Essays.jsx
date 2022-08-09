@@ -124,7 +124,8 @@ const Essays = () => {
                 <p><b>QA:</b> Testers work as a team to identify, isolate, target and report bugs. </p>
             </Essay>
             <Essay q='Question 11: Function vs Form: When are web images considered part of the content (HTML) as opposed to part of the appearance (CSS)? '>
-                <p></p>
+                <p><b>HTML Images:</b>Use IMG if you intend to have people print your page and you want the image to be included by default.</p>
+                <p><b>CSS Images:</b>Use CSS background images if the image is not part of the content. </p>
             </Essay>
         </EssaysStyled>
     );
