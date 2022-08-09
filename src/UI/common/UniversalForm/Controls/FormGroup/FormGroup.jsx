@@ -19,4 +19,10 @@ const FormGroup = ({children}) => {
 export default FormGroup;
 
 const FormGroupStyled = styled.div`
+    margin-bottom: 20px;
+    &.error {
+        input, textarea {
+            border: solid 2px red;
+        }
+    }
 `;
