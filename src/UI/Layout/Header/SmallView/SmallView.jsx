@@ -17,7 +17,7 @@ const SmallView = () => {
             </div>
             <Hamburger showMenuUpdate={ showMenuUpdate } showMenu={ showMenu } />
             {
-                showMenu && <Menus />
+                showMenu && <Menus showMenuUpdate={ showMenuUpdate } />
             }
         </SmallViewStyled>
     );
