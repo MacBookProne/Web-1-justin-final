@@ -17,8 +17,22 @@ const Forms = () => {
                 displayName='UF: Classwork Form'
                 onSubmit={ onSubmit }
             >
-                <Input />
-                <Textarea />
+                <Input
+                    label='Name'
+                    id='username'
+                    type='text'
+                    placeholder='Full Name'
+                    defaultValue='Justin ODea'
+                    rules={ ['required'] }
+                />
+                <Textarea
+                    label='Tell us about yourself'
+                    id='about'
+                    type='text'
+                    placeholder='All about you...'
+                    defaultValue='This is what a bio might look like.'
+                    rules={ ['required'] }
+                />
                 <SubmitButton>Submit The Form</SubmitButton>
             </UniversalForm>
 

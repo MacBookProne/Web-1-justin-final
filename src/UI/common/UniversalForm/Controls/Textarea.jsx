@@ -1,18 +1,58 @@
-import React from 'react';
+import React, { useContext, useEffect } from 'react';
 import styled from 'styled-components';
+
+/* Context ---------------------------*/
+import Context from '../Context/index.js';
+import { addField, updateField} from '../Context/actions.js';
 
 import FormGroup from './FormGroup/FormGroup.jsx';
 
-const Textarea = () => {
+const Textarea = ({
+    label,
+    id,
+    defaultValue='',
+    placeholder='',
+    rules=[],
+}) => {
+
+    const { dispatch, state } = useContext(Context);
+
+    /* finds the id and returns it ---------------------------*/
+    const thisField = state.fields.find((field) => {
+        return (field.id == id);
+    });
+
+    const renderedValue =  thisField ? thisField.value : defaultValue;
+/* Component mount ---------------------------*/
+/* Dispatches method and updates field ---------------------------*/
+useEffect(() => {
+    const theField = {
+        id: id,
+        label: label,
+        value: defaultValue,
+        rules: rules,
+    };
+/* Updates State ---------------------------*/
+    dispatch(addField(theField, state));
+},[]);
+
+    const onChange = (e) => {
+        dispatch(updateField(id, e.target,value, state));
+    }
+
     return (
         <TextareaStyled className='Textarea'>
-            <FormGroup>
-                <textarea />
+            <FormGroup thisField={ thisField } id={ id} label={ label}>
+                <textarea
+                    id={ id }
+                    placeholder= { placeholder }
+                    value={ renderedValue }
+                    onChange={ onChange }
+                />
             </FormGroup>
         </TextareaStyled>
     );
 }
-
 export default Textarea;
 
 const TextareaStyled = styled.div`

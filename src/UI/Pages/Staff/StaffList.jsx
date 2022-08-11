@@ -11,7 +11,6 @@ const StaffList = () => {
 
         <StaffListStyled className='StaffList'>
             <div className="wrapper">
-            StaffList
             {
                 staffData.map((member, idx) => {
                     return <StaffMember key={idx} member={ member } />
