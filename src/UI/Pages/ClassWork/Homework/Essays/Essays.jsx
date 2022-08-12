@@ -98,7 +98,7 @@ const Essays = () => {
             <Essay q='Question 7: Define the following roles: Project Manager, Business Analyst,
             Scrum Master, UX designer, Web Developer/Engineer, Quality Assurance Tester, and DevOps. '>
                 <p><b>Project Manager:</b>Project managers are responsible for planning, organizing, and directing the completion of specific projects
-                 for an organization while ensuring these projects are on time, on budget, and within scope.</p>
+                for an organization while ensuring these projects are on time, on budget, and within scope.</p>
                 <p><b>Business Analyst:</b>A person who processes, interprets and documents business processes, products, services and software through analysis of data. </p>
                 <p><b>Scrum Master:</b> Master of ceremonies, Manages timelines, and assits team members in moving the ball forward</p>
                 <p><b>UX Designer</b> Useable, enjoyable, and accessible. they design the user expereience.(data analysis, user profiles, prototypes) </p>
@@ -126,6 +126,14 @@ const Essays = () => {
             <Essay q='Question 11: Function vs Form: When are web images considered part of the content (HTML) as opposed to part of the appearance (CSS)? '>
                 <p><b>HTML Images:</b>Use IMG if you intend to have people print your page and you want the image to be included by default.</p>
                 <p><b>CSS Images:</b>Use CSS background images if the image is not part of the content.</p>
+            </Essay>
+            <Essay q='Question 12: What is the difference between IDs Classes and Tags? How does Specificity play a role in the selection of HTML elements (both in CSS and JS)'>
+                <p><b>IDs:</b>IDs are unique. Each element can have only one ID. Each page can have only one element with that ID</p>
+                <p><b>Classes:</b>Classes are not unique You can use the same class on multiple elements. You can use multiple classes on the same element.</p>
+                <p><b>Tags</b>A tag is a short usually one word description of an HTML object or link.</p>
+                <p><b>Specificity</b>In CSS, specificity is essentially a measurement of relevance based on the type and order of CSS selectors. In cases where an HTML element or group of elements is targeted by multiple CSS selectors,
+                the rules of specificity enable browsers to determine which CSS declarations are
+                the most relevant to the HTML element and should be applied.</p>
             </Essay>
         </EssaysStyled>
     );
