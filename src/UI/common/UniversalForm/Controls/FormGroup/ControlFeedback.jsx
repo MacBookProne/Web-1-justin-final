@@ -1,10 +1,30 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import styled from 'styled-components';
 
-const ControlFeedback = () => {
+/* Context ---------------------------*/
+import Context from '../../Context/index.js';
+
+const ControlFeedback = ({id}) => {
+
+    const { state } = useContext(Context);
+
+    const thisField = state.fields.find((field) => {
+        return (field.id === id);
+    });
+
+    if (!thisField || thisField.isValid) {
+        return '';
+    }
+
     return (
         <ControlFeedbackStyled className='ControlFeedback'>
-            Control Feedback
+            <ul>
+                {
+                    thisField.messages.map((message, idx) => {
+                        return <li key={ idx }>{ message }</li>;
+                    })
+                }
+            </ul>
         </ControlFeedbackStyled>
     );
 }
@@ -15,11 +35,10 @@ const ControlFeedbackStyled = styled.div`
     color: #b10202;
     padding: 5px 0px;
     font-weight: bold;
-
-    ul{
+    ul {
         padding: 0px;
         margin: 5px 0px 0px;
-        li{
+        li {
             list-style-type: none;
         }
     }
