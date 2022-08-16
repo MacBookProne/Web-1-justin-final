@@ -22,10 +22,10 @@ const Input = ({
 
     /* finds the id and returns it ---------------------------*/
     const thisField = state.fields.find((field) => {
-        return (field.id == id);
+        return (field.id === id);
     });
 
-    const renderedValue =  thisField ? thisField.value : defaultValue;
+    const renderedValue = thisField ? thisField.value : defaultValue;
 /* Component mount ---------------------------*/
 /* Dispatches method and updates field ---------------------------*/
 useEffect(() => {
@@ -34,13 +34,13 @@ useEffect(() => {
         label: label,
         value: defaultValue,
         rules: rules,
-    };
+    }
 /* Updates State ---------------------------*/
     dispatch(addField(theField, state));
 },[]);
 
 const onChange = (e) => {
-    dispatch(updateField(id, e.target,value, state));
+    dispatch(updateField(id, e.target.value, state));
 }
     return (
         <InputStyled className='Input'>
