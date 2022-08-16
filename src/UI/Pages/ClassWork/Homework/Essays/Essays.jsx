@@ -135,6 +135,13 @@ const Essays = () => {
                 the rules of specificity enable browsers to determine which CSS declarations are
                 the most relevant to the HTML element and should be applied.</p>
             </Essay>
+            <Essay q='Question 13: What is a CSS Preprocessor? What are some examples? In React, what are styled components? How do Styled Components violate separation of concerns?'>
+                <p><b>CSS Preprocessor</b>A CSS preprocessor is a program that lets you generate CSS from the preprocessor's own unique syntax.</p>
+                <p><b>Examples:</b>SASS, LESS, STYLUS, These influence alot of what we do today.</p>
+                <p><b>Style Componets:</b>Styled-components is a library for React. It allows you to create components, within a React component, that are responsible for handling CSS styles. Styled components aligns with the React philosophy of isolating functionality.
+                It can keep your code more organized, which might reduce the amount of bugs you encounter. </p>
+                <p><b></b></p>
+            </Essay>
         </EssaysStyled>
     );
 }
