@@ -37,7 +37,7 @@ useEffect(() => {
 },[]);
 
     const onChange = (e) => {
-        dispatch(updateField(id, e.target,value, state));
+        dispatch(updateField(id, e.target.value, state));
     }
 
     return (

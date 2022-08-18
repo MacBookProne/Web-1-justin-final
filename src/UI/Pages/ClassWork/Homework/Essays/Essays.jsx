@@ -142,6 +142,12 @@ const Essays = () => {
                 It can keep your code more organized, which might reduce the amount of bugs you encounter. </p>
                 <p><b></b></p>
             </Essay>
+            <Essay q='Question 14: What is the difference between Web Hosts, Domains, and FTP?'>
+                <p><b>Web Host:</b>A webhost is where you host a website they help you create and maintain them as well as make them accesible. examples of these would be wpengine, GoDaddy, bluehost</p>
+                <p><b>Domains:</b>Domains are a unique address where you can find your website. A steing that identifies a realm of administrative autonomy or authority.</p>
+                <p><b>FTP:</b>FTP or File Transfer Protocal is a way to transfer files from a server or to a server as well as to and from a website.</p>
+                <p><b></b></p>
+            </Essay>
         </EssaysStyled>
     );
 }
