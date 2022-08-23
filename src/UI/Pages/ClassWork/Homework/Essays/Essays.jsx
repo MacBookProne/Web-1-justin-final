@@ -148,6 +148,12 @@ const Essays = () => {
                 <p><b>FTP:</b>FTP or File Transfer Protocal is a way to transfer files from a server or to a server as well as to and from a website.</p>
                 <p><b></b></p>
             </Essay>
+            <Essay q='Question 15: What is the difference between Web Hosts, Domains, and FTP?'>
+                <p><b>Who is the client?</b>I am the client. I own my own business called Bigcreekagency.com I currently build wordpress sites in elementor.</p>
+                <p><b>What is it's purpose? </b>The purpose is to design a website for myself currently I have a one page website that I know needs to be better. </p>
+                <p><b>Why did you choose this subject?</b>I chose this subject as I have been procrastinating on building my own website.</p>
+                <p><b></b></p>
+            </Essay>
         </EssaysStyled>
     );
 }
