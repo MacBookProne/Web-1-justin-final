@@ -21,7 +21,7 @@ export default TabContent;
 
 const TabContentStyled = styled.div`
     padding: 20px;
-    background-color: teal;
+    background-color: #071e22ff;
     @media ${ defaultMediaQueries.mdUp } {
         display: flex;
     }

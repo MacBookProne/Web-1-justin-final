@@ -8,13 +8,13 @@ import { defaultMediaQueries } from 'UI/common/useMediaQuery.js';
 import Lightbox, { ActiveArea, Modal } from 'UI/common/Lightbox/Lightbox.jsx';
 import AccoladesList from './Accolades/AccoladesList.jsx';
 
-const StaffMember = ({member}) => {
+const ClientMember = ({member}) => {
 
     return (
-        <StaffMemberStyled className='StaffMember'>
+        <ClientMemberStyled className='ClientMember'>
             <Lightbox
                 title={ member.name }
-                displayName='Staff Member Lightbox'
+                displayName='Client Lightbox'
             >
                 <ActiveArea>
                     <img src={ member.image } alt={ member.name } />
@@ -23,20 +23,20 @@ const StaffMember = ({member}) => {
 
                 <Modal>
                     <img src={ member.image } alt={ member.name } />
-                    <p><b>Year Started:</b> { member.yearStarted }</p>
+                    <p><b>Website:</b> { member.website }</p>
 
 
                     <AccoladesList accolades={ member.accolades } />
                 </Modal>
 
             </Lightbox>
-        </StaffMemberStyled>
+        </ClientMemberStyled>
     );
 }
 
-export default StaffMember;
+export default ClientMember;
 
-const StaffMemberStyled = styled.div`
+const ClientMemberStyled = styled.div`
     width: 100%;
     margin: 5px 0px;
     @media ${defaultMediaQueries.smUp} {
@@ -58,7 +58,7 @@ const StaffMemberStyled = styled.div`
     }
     h3 {
         color: white;
-        background-color: #014444;
+        background-color: #071e22ff;
         margin: 0px;
         padding: 5px 10px;
     }

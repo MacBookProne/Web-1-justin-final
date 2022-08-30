@@ -12,7 +12,7 @@ const Login = () => {
         console.groupEnd();
     }
     return (
-        <LoginStyled className='Login' inset>
+        <LoginStyled className='Login inset'>
             <h1>Login</h1>
             <UniversalForm
                 displayName='UF: Login Form'

@@ -1,10 +1,13 @@
 import React from 'react';
 import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 
 const SiteLogo = () => {
     return (
         <SiteLogoStyled className='SiteLogo'>
-            <img src='/assets/img/crossfit-decimate-logo.png' alt='CrossFit Decimate Logo' />
+            <Link to='/'>
+            <img src='/assets/img/big-creek-agency.png' alt='Big-Creek-Agency' />
+            </Link>
         </SiteLogoStyled>
     );
 }

@@ -3,9 +3,11 @@ import styled from 'styled-components';
 import { Routes, Route } from 'react-router-dom';
 
 import Home from './Pages/Home/Home.jsx';
-import Staff from './Pages/Staff/Staff.jsx';
+import Clients from './Pages/Clients/Clients.jsx';
 import Contact from './Pages/Contact.jsx';
+import AboutUs from './Pages/AboutUs.jsx';
 import Login from './Pages/Login.jsx';
+
 
 import ClassWork from './Pages/ClassWork/ClassWork.jsx';
 import Homework from './Pages/ClassWork/Homework/Homework.jsx';
@@ -14,13 +16,15 @@ import JavaScript from './Pages/ClassWork/JavaScript/JavaScript.jsx';
 import ControlledInput from './Pages/ClassWork/ControlledInput.jsx';
 import Forms from './Pages/ClassWork/Forms.jsx';
 
+
 const Routing = () => {
     return (
         <RoutingStyled className='Routing'>
             <Routes>
                 <Route element={ <Home /> }         path=''  />
-                <Route element={ <Staff /> }        path='staff'  />
+                <Route element={ <Clients /> }        path='clients'  />
                 <Route element={ <Contact /> }      path='contact'  />
+                <Route element={ <AboutUs />}        path='aboutus'/>
                 <Route element={ <Login /> }        path='login'  />
 
                 <Route element={ <ClassWork /> }    path='class'>

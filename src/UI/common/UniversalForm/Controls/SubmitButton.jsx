@@ -19,7 +19,7 @@ const SubmitButtonStyled = styled.div`
 
 
     button {
-        background-color: teal;
+        background-color: #071e22ff;
         color: #ffffff;
         padding: 10px 20px;
         border-radius: 5px;

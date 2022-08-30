@@ -13,7 +13,7 @@ const Footer = () => {
             <div className="logo">
                 <SiteLogo />
             </div>
-            <h2>CrossFit Decimate :: Peace, Love, Unity, Fitness, Chill, and Respect :: Colorado Springs, CO</h2>
+            <h2>Big Creek Agency LLC</h2>
             <div className="copyright">&copy; 2022. All rights reserved.</div>
         </FooterStyled>
     );
@@ -22,7 +22,7 @@ const Footer = () => {
 export default Footer;
 
 const FooterStyled = styled.footer`
-    background-color: #014444;
+    background-color: #598381;
     color: white;
     padding: 20px 0px;
     margin: 50px 0px 0px;
@@ -39,12 +39,13 @@ const FooterStyled = styled.footer`
         }
     }
     h2 {
-        color: white;
+        color: Black;
         margin: 5px 0px;
         font-size: 14px;
     }
     .copyright {
         font-size: 14px;
-        color: white;
+        color: Black;
+        font-weight: bold;
     }
 `;

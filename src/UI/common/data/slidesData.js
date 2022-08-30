@@ -1,22 +1,22 @@
 export const slidesData = [
     {
-        image: '/assets/img/slides/slides-assets/Core-Strength.jpg',
-        title: 'Core Strength',
+        image: '/assets/img/slides/slides-assets/Group-Picture-Recovered.jpg',
+        title: 'Development',
     },
     {
-        image: '/assets/img/slides/slides-assets/Staff-In-Action.jpg',
-        title: 'Staff In Action',
+        image: '/assets/img/slides/slides-assets/Man-Coding.jpg',
+        title: 'Hosting',
     },
     {
-        image: '/assets/img/slides/slides-assets/Senior.jpg',
-        title: 'Senior',
+        image: '/assets/img/slides/slides-assets/Coffee-Code.jpg',
+        title: 'Security',
     },
     {
-        image: '/assets/img/slides/slides-assets/Group-Picture.jpg',
-        title: 'Group Picture',
+        image: '/assets/img/slides/slides-assets/Night-Coder.jpg',
+        title: 'Design',
     },
     {
-        image: '/assets/img/slides/slides-assets/Aerial-Open-Gym.jpg',
-        title: 'Aerial Open Gym',
+        image: '/assets/img/slides/slides-assets/Bozeman.jpg',
+        title: 'Local',
     },
 ]

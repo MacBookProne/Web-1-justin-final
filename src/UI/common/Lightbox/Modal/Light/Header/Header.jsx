@@ -17,15 +17,12 @@ export default Header;
 
 const HeaderStyled = styled.div`
     display: flex;
-    background-color: #014444;
-
+    background-color: #598381ff;
     h4 {
         color: white;
         flex: 1;
     }
-
     .CloseButton {
         flex: 0 0 30px;
     }
-
 `;

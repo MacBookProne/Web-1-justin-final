@@ -152,7 +152,10 @@ const Essays = () => {
                 <p><b>Who is the client?</b>I am the client. I own my own business called Bigcreekagency.com I currently build wordpress sites in elementor.</p>
                 <p><b>What is it's purpose? </b>The purpose is to design a website for myself currently I have a one page website that I know needs to be better. </p>
                 <p><b>Why did you choose this subject?</b>I chose this subject as I have been procrastinating on building my own website.</p>
-                <p><b></b></p>
+            </Essay>
+            <Essay q='Question 16: What is a Package Manager (e.g. NPM, Composer)? How does it play a role in software development?'>
+                <p><b>Package Manager</b>is a system or set of tools used to automate installing, upgrading, configuring and using software.</p>
+                <p><b>What is the role of a package manager? </b> Most package managers are designed for discovering and installing developer tools. </p>
             </Essay>
         </EssaysStyled>
     );

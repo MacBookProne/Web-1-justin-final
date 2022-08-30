@@ -34,7 +34,7 @@ const MenusStyled = styled.div`
     top: 300px;
     right: 0px;
     bottom: 0px;
-    background-color: #014444;
+    background-color: #071e22ff;
     h2 {
         font-size: 20px;
         margin: 0px;
@@ -49,7 +49,7 @@ const MenusStyled = styled.div`
         color: white;
         text-decoration: none;
         &:hover, &:active, &:focus {
-            background-color: #002a2a;
+            background-color: #071e22ff;
         }
     }
 `;
